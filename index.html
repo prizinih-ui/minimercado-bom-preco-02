@@ -28,6 +28,7 @@
     </div>
   </nav>
 </header>
+
 <main>
   <section class="container py-4">
     <div class="d-flex align-items-center justify-content-between flex-wrap gap-3">
@@ -38,6 +39,7 @@
       <a class="btn btn-primary btn-lg" href="cadastro.html">Cadastrar & Agendar</a>
     </div>
   </section>
+
   <section class="bg-white border-top border-bottom">
     <div id="carouselOfertas" class="carousel slide container py-3" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -62,7 +64,8 @@
         </div>
         <div class="carousel-item">
           <img src="img/esponja.jpg" class="d-block w-100" alt="Esponja multiuso em destaque: do corpo a louça" />
-          <div class="carousel-caption text-end">
+          <!-- ADIÇÃO: caption-limpeza -->
+          <div class="carousel-caption text-end caption-limpeza">
             <h5>Linha Limpeza</h5>
             <p>Higiene e bem-estar para sua casa.</p>
           </div>
@@ -76,6 +79,7 @@
       </button>
     </div>
   </section>
+
   <section class="container py-5">
     <div class="row g-4">
       <div class="col-md-4">
@@ -88,6 +92,7 @@
           </div>
         </div>
       </div>
+
       <div class="col-md-4">
         <div class="card h-100">
           <img src="img/pao.jpg" class="card-img-top" alt="Cesta com pães franceses dourados" />
@@ -98,8 +103,10 @@
           </div>
         </div>
       </div>
+
       <div class="col-md-4">
-        <div class="card h-100">
+        <!-- ADIÇÃO: card-limpeza -->
+        <div class="card h-100 card-limpeza">
           <img src="img/detergente.jpg" class="card-img-top" alt="Tubo de detergente neutro" />
           <div class="card-body">
             <h5 class="card-title">Limpeza</h5>
@@ -108,9 +115,11 @@
           </div>
         </div>
       </div>
+
     </div>
   </section>
 </main>
+
 <footer class="mt-5 py-4 bg-white border-top">
   <div class="container small d-flex flex-wrap gap-2 justify-content-between align-items-center">
     <p class="m-0">&copy; 2025 MiniMercado Bom Preço — Trabalho acadêmico (Fundamentos de Sistemas Web).</p>
@@ -124,6 +133,7 @@
     </div>
   </div>
 </footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="assets/script.js"></script>
 </body>
