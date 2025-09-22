@@ -8,6 +8,20 @@
   border-radius: .5rem;           /* opcional */
   padding: .25rem .5rem;          /* opcional */
 }
+.caption-limpeza,
+.caption-limpeza h5,
+.caption-limpeza p {
+  color: #000 !important;
+  text-shadow: none !important;
+}
+.caption-limpeza {
+  background-color: rgba(255, 255, 255, 0.6); /* opcional, melhora leitura sobre a foto */
+  border-radius: .5rem;
+  display: inline-block;
+  padding: .25rem .5rem;
+}
+
+/* Card "Limpeza": garante título e texto em preto (caso algo sobrescreva depois) */
 .card-limpeza .card-title,
 .card-limpeza .card-text {
   color: #000 !important;
